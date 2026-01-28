@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact LogiConnect - Get in touch with our team">
+    <meta name="keywords" content="contact, inquiry, support">
+    <title>Contact Us | LogiConnect</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Navigation Header -->
+    <header class="navbar">
+        <div class="container navbar-container">
+            <div class="logo">
+                <h1>LogiConnect</h1>
+            </div>
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav class="nav-menu" id="navMenu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="about.html" class="nav-link">About Us</a>
+                <a href="services.html" class="nav-link">What We Do</a>
+                <a href="contact.html" class="nav-link active">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Hero -->
+    <section class="page-hero">
+        <div class="container">
+            <h2 class="page-title">Get in Touch</h2>
+            <p class="page-subtitle">We'd love to hear from you. Let's discuss your logistics needs.</p>
+        </div>
+    </section>
+
+    <!-- Contact Content -->
+    <section class="section-padding">
+        <div class="container">
+            <div class="contact-grid">
+                <!-- Contact Form -->
+                <div class="contact-form-section">
+                    <h2>Send us a Message</h2>
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="company">Company Name</label>
+                            <input type="text" id="company" name="company">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="service">Service Interest *</label>
+                            <select id="service" name="service" required>
+                                <option value="">Select a service</option>
+                                <option value="manpower">Manpower Supply</option>
+                                <option value="warehouse">Warehouse Operations</option>
+                                <option value="logistics">Logistics Services</option>
+                                <option value="combined">Combined Solutions</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                        <div id="formMessage" class="form-message"></div>
+                    </form>
+                </div>
+
+                <!-- Contact Information -->
+                <div class="contact-info-section">
+                    <h2>Contact Information</h2>
+
+                    <div class="info-card">
+                        <h3>Head Office</h3>
+                        <p>123 Logistics Drive<br>Industrial Park<br>New York, NY 10001<br>United States</p>
+                    </div>
+
+                    <div class="info-card">
+                        <h3>Phone</h3>
+                        <p><strong>Main Line:</strong> <a href="tel:+1-800-564-8447">+1 (800) 564-8447</a></p>
+                        <p><strong>Warehouse Operations:</strong> <a href="tel:+1-800-WAREHOUSE">+1 (800) 927-3527</a></p>
+                        <p><strong>Manpower Division:</strong> <a href="tel:+1-800-STAFFNOW">+1 (800) 732-3669</a></p>
+                    </div>
+
+                    <div class="info-card">
+                        <h3>Email</h3>
+                        <p><strong>General Inquiries:</strong> <a href="mailto:info@logiconnect.com">info@logiconnect.com</a></p>
+                        <p><strong>Manpower:</strong> <a href="mailto:staffing@logiconnect.com">staffing@logiconnect.com</a></p>
+                        <p><strong>Warehouse Services:</strong> <a href="mailto:warehouse@logiconnect.com">warehouse@logiconnect.com</a></p>
+                    </div>
+
+                    <div class="info-card">
+                        <h3>Business Hours</h3>
+                        <p><strong>Monday - Friday:</strong> 7:00 AM - 7:00 PM EST<br><strong>Saturday:</strong> 9:00 AM - 5:00 PM EST<br><strong>Sunday:</strong> Closed</p>
+                        <p class="note">Emergency support available 24/7 for existing clients</p>
+                    </div>
+
+                    <div class="social-section">
+                        <h3>Connect With Us</h3>
+                        <div class="social-links">
+                            <a href="#" class="social-link" title="LinkedIn">
+                                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                                </svg>
+                            </a>
+                            <a href="#" class="social-link" title="Twitter">
+                                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2s9 5 20 5a9.5 9.5 0 00-9-5.5c4.75-2.35 7-5 7-5s-1.41 1.75-4 2.5c2.6-.2 5-1 6.6-3.5-1.2 1.1-3 2-5 2.5 1-1 1.5-2.5 1.5-4 0-4.42-4-8-8-8-4 0-7.29 3-8 7.5"/>
+                                </svg>
+                            </a>
+                            <a href="#" class="social-link" title="Facebook">
+                                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M18 2h-3a6 6 0 00-6 6v3H7v4h2v8h4v-8h3l1-4h-4V8a1 1 0 011-1h3z"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service Area Map Section -->
+    <section class="section-padding bg-light">
+        <div class="container">
+            <h2 class="section-title text-center">Our Service Areas</h2>
+            <div class="service-areas">
+                <div class="area-box">
+                    <h3>Northeast Region</h3>
+                    <p>New York, New Jersey, Connecticut, Massachusetts, Pennsylvania</p>
+                </div>
+                <div class="area-box">
+                    <h3>Southeast Region</h3>
+                    <p>Florida, Georgia, North Carolina, South Carolina, Virginia</p>
+                </div>
+                <div class="area-box">
+                    <h3>Midwest Region</h3>
+                    <p>Ohio, Michigan, Illinois, Indiana, Wisconsin</p>
+                </div>
+                <div class="area-box">
+                    <h3>Southwest Region</h3>
+                    <p>Texas, Arizona, Nevada, New Mexico, Oklahoma</p>
+                </div>
+                <div class="area-box">
+                    <h3>West Coast Region</h3>
+                    <p>California, Washington, Oregon, Colorado, Utah</p>
+                </div>
+                <div class="area-box">
+                    <h3>Expanding</h3>
+                    <p>New regions available quarterly. Contact us for availability.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="section-padding">
+        <div class="container">
+            <h2 class="section-title text-center">Frequently Asked Questions</h2>
+            <div class="faq-container">
+                <div class="faq-item">
+                    <h3 class="faq-question">What is the typical onboarding process?</h3>
+                    <p class="faq-answer">Our onboarding process is streamlined and efficient. Once you contact us, we conduct a needs assessment, provide a customized proposal within 2-3 business days, and can have staff deployed or your first shipment processed within 1-2 weeks of agreement.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3 class="faq-question">Do you offer long-term contracts or just short-term solutions?</h3>
+                    <p class="faq-answer">We offer both flexible short-term solutions and comprehensive long-term partnerships. Our contracts are customizable to your specific needs and budget requirements.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3 class="faq-question">What kind of staffing expertise do you have?</h3>
+                    <p class="faq-answer">Our team specializes in warehouse operations, logistics, distribution, customer service, and general labor. All staff are vetted, background-checked, and pre-trained for immediate productivity.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3 class="faq-question">Can you handle international shipping and logistics?</h3>
+                    <p class="faq-answer">Currently, we specialize in domestic (USA) logistics operations. However, we partner with international carriers for cross-border solutions. Please contact us for specific international requirements.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3 class="faq-question">What technology do you use for tracking?</h3>
+                    <p class="faq-answer">We utilize advanced WMS (Warehouse Management System) with real-time tracking, barcode scanning, and RFID technology. You'll have 24/7 visibility into your inventory and shipments.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3 class="faq-question">How can I get a custom quote?</h3>
+                    <p class="faq-answer">Simply fill out the contact form above or call us directly. Our team will schedule a consultation to understand your specific needs and provide a detailed, competitive quote.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <h4>LogiConnect</h4>
+                    <p>Professional Manpower & Warehouse Logistics Solutions</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">What We Do</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p>Email: <a href="mailto:info@logiconnect.com">info@logiconnect.com</a></p>
+                    <p>Phone: <a href="tel:+1-800-LOGISTICS">+1 (800) 564-8447</a></p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 LogiConnect. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
